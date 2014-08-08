@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+shift+f"], "command": "reindent", "args": {"single_line": false}},
+	
+	{ "keys": ["ctrl+f1"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	
+	{ "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
+	
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}},
+	
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+
+	{ "keys": ["ctrl+shift+t"], "command": "goto_symbol_in_project" },
+	{ "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+]
